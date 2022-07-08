@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/Search-Engine.dir/main.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/main.cpp",
+  "file": "/Users/anastasiapronina/Desktop/Search-Engine/main.cpp"
+}
+]
