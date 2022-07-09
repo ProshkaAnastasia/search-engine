@@ -63,15 +63,14 @@ CMAKE_BINARY_DIR = /Users/anastasiapronina/Desktop/Search-Engine/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Search-Engine.dir/all
+all: Project/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: Project/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Search-Engine.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousBuild.dir/clean
@@ -100,33 +99,40 @@ clean: CMakeFiles/NightlyStart.dir/clean
 clean: CMakeFiles/ExperimentalMemCheck.dir/clean
 clean: CMakeFiles/Continuous.dir/clean
 clean: CMakeFiles/Experimental.dir/clean
+clean: Project/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Search-Engine.dir
+# Directory level rules for directory Project
 
-# All Build rule for target.
-CMakeFiles/Search-Engine.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Search-Engine.dir/build.make CMakeFiles/Search-Engine.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Search-Engine.dir/build.make CMakeFiles/Search-Engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles --progress-num=1,2 "Built target Search-Engine"
-.PHONY : CMakeFiles/Search-Engine.dir/all
+# Recursive "all" directory target.
+Project/all: Project/CMakeFiles/Search-Engine.dir/all
+Project/all: Project/nlohmann_json/all
+.PHONY : Project/all
 
-# Build rule for subdir invocation for target.
-CMakeFiles/Search-Engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Search-Engine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles 0
-.PHONY : CMakeFiles/Search-Engine.dir/rule
+# Recursive "preinstall" directory target.
+Project/preinstall: Project/nlohmann_json/preinstall
+.PHONY : Project/preinstall
 
-# Convenience name for target.
-Search-Engine: CMakeFiles/Search-Engine.dir/rule
-.PHONY : Search-Engine
+# Recursive "clean" directory target.
+Project/clean: Project/CMakeFiles/Search-Engine.dir/clean
+Project/clean: Project/nlohmann_json/clean
+.PHONY : Project/clean
 
-# clean rule for target.
-CMakeFiles/Search-Engine.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Search-Engine.dir/build.make CMakeFiles/Search-Engine.dir/clean
-.PHONY : CMakeFiles/Search-Engine.dir/clean
+#=============================================================================
+# Directory level rules for directory Project/nlohmann_json
+
+# Recursive "all" directory target.
+Project/nlohmann_json/all:
+.PHONY : Project/nlohmann_json/all
+
+# Recursive "preinstall" directory target.
+Project/nlohmann_json/preinstall:
+.PHONY : Project/nlohmann_json/preinstall
+
+# Recursive "clean" directory target.
+Project/nlohmann_json/clean:
+.PHONY : Project/nlohmann_json/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ContinuousCoverage.dir
@@ -855,6 +861,32 @@ Experimental: CMakeFiles/Experimental.dir/rule
 CMakeFiles/Experimental.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/clean
 .PHONY : CMakeFiles/Experimental.dir/clean
+
+#=============================================================================
+# Target rules for target Project/CMakeFiles/Search-Engine.dir
+
+# All Build rule for target.
+Project/CMakeFiles/Search-Engine.dir/all:
+	$(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/depend
+	$(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles --progress-num=1,2,3 "Built target Search-Engine"
+.PHONY : Project/CMakeFiles/Search-Engine.dir/all
+
+# Build rule for subdir invocation for target.
+Project/CMakeFiles/Search-Engine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project/CMakeFiles/Search-Engine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles 0
+.PHONY : Project/CMakeFiles/Search-Engine.dir/rule
+
+# Convenience name for target.
+Search-Engine: Project/CMakeFiles/Search-Engine.dir/rule
+.PHONY : Search-Engine
+
+# clean rule for target.
+Project/CMakeFiles/Search-Engine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/clean
+.PHONY : Project/CMakeFiles/Search-Engine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

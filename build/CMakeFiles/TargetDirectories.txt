@@ -1,5 +1,4 @@
 /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/rebuild_cache.dir
-/Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/Search-Engine.dir
 /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/package_source.dir
 /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/ContinuousCoverage.dir
 /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/ContinuousTest.dir
@@ -32,3 +31,14 @@
 /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/ExperimentalMemCheck.dir
 /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/Continuous.dir
 /Users/anastasiapronina/Desktop/Search-Engine/build/CMakeFiles/Experimental.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/CMakeFiles/test.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/CMakeFiles/package.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/CMakeFiles/edit_cache.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/CMakeFiles/rebuild_cache.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/CMakeFiles/package_source.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/CMakeFiles/Search-Engine.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/edit_cache.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/rebuild_cache.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/package_source.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/package.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/test.dir

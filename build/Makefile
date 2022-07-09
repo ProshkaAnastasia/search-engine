@@ -147,19 +147,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Search-Engine
-
-# Build rule for target.
-Search-Engine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Search-Engine
-.PHONY : Search-Engine
-
-# fast build rule for target.
-Search-Engine/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Search-Engine.dir/build.make CMakeFiles/Search-Engine.dir/build
-.PHONY : Search-Engine/fast
-
-#=============================================================================
 # Target rules for targets named ContinuousCoverage
 
 # Build rule for target.
@@ -523,29 +510,18 @@ Experimental/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named Search-Engine
 
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Search-Engine.dir/build.make CMakeFiles/Search-Engine.dir/main.cpp.o
-.PHONY : main.cpp.o
+# Build rule for target.
+Search-Engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Search-Engine
+.PHONY : Search-Engine
 
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Search-Engine.dir/build.make CMakeFiles/Search-Engine.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Search-Engine.dir/build.make CMakeFiles/Search-Engine.dir/main.cpp.s
-.PHONY : main.cpp.s
+# fast build rule for target.
+Search-Engine/fast:
+	$(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/build
+.PHONY : Search-Engine/fast
 
 # Help Target
 help:
@@ -587,9 +563,6 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... Search-Engine"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

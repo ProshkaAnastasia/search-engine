@@ -8,6 +8,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../Project/CMakeLists.txt"
+  "../Project/nlohmann_json/CMakeLists.txt"
+  "../Project/nlohmann_json/cmake/config.cmake.in"
+  "../Project/nlohmann_json/cmake/nlohmann_jsonConfigVersion.cmake.in"
+  "../Project/nlohmann_json/cmake/pkg-config.pc.in"
   "CMakeFiles/3.21.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeSystem.cmake"
@@ -17,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+  "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CPack.cmake"
@@ -30,6 +36,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/Clang.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/GNU.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/DartConfiguration.tcl.in"
+  "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/ExternalProject.cmake"
+  "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/GNUInstallDirs.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake"
@@ -38,6 +46,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Darwin.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/UnixPaths.cmake"
+  "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Templates/CPackConfig.cmake.in"
   )
 
@@ -53,11 +62,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Project/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Project/nlohmann_json/nlohmann_json.pc"
+  "Project/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+  "Project/nlohmann_json/nlohmann_jsonConfig.cmake"
+  "Project/nlohmann_json/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Search-Engine.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousTest.dir/DependInfo.cmake"
   "CMakeFiles/ContinuousBuild.dir/DependInfo.cmake"
@@ -86,4 +99,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake"
   "CMakeFiles/Continuous.dir/DependInfo.cmake"
   "CMakeFiles/Experimental.dir/DependInfo.cmake"
+  "Project/CMakeFiles/Search-Engine.dir/DependInfo.cmake"
   )

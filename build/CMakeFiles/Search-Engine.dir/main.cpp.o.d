@@ -14,6 +14,7 @@ CMakeFiles/Search-Engine.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__nullptr \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
@@ -66,8 +67,6 @@ CMakeFiles/Search-Engine.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/runetype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/version \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional_base \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/invoke.h \
@@ -75,6 +74,8 @@ CMakeFiles/Search-Engine.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/version \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/operations.h \
@@ -412,4 +413,64 @@ CMakeFiles/Search-Engine.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/json.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/adl_serializer.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/array \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/exceptions.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/value_t.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/macro_scope.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/detected.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/string_escape.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/input/position_t.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/json_fwd.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/string_concat.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/hash.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/input/lexer.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/input/parser.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/json_pointer.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/json_ref.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/output/serializer.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/ordered_map.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
