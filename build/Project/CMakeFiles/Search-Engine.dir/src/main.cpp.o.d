@@ -476,4 +476,7 @@ Project/CMakeFiles/Search-Engine.dir/src/main.cpp.o: \
   /Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include/nlohmann/ordered_map.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/any \
   /Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+  /Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /Users/anastasiapronina/Desktop/Search-Engine/Project/include/ConverterJSON.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream \
+  /Users/anastasiapronina/Desktop/Search-Engine/Project/include/Configuration.h

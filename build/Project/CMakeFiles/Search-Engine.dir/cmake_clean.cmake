@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Search-Engine.dir/src/Configuration.cpp.o"
+  "CMakeFiles/Search-Engine.dir/src/Configuration.cpp.o.d"
   "CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o"
   "CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o.d"
   "CMakeFiles/Search-Engine.dir/src/main.cpp.o"

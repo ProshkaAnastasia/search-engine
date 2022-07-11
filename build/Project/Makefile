@@ -160,6 +160,30 @@ Search-Engine/fast:
 	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/build
 .PHONY : Search-Engine/fast
 
+src/Configuration.o: src/Configuration.cpp.o
+.PHONY : src/Configuration.o
+
+# target to build an object file
+src/Configuration.cpp.o:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/Configuration.cpp.o
+.PHONY : src/Configuration.cpp.o
+
+src/Configuration.i: src/Configuration.cpp.i
+.PHONY : src/Configuration.i
+
+# target to preprocess a source file
+src/Configuration.cpp.i:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/Configuration.cpp.i
+.PHONY : src/Configuration.cpp.i
+
+src/Configuration.s: src/Configuration.cpp.s
+.PHONY : src/Configuration.s
+
+# target to generate assembly for a file
+src/Configuration.cpp.s:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/Configuration.cpp.s
+.PHONY : src/Configuration.cpp.s
+
 src/ConverterJSON.o: src/ConverterJSON.cpp.o
 .PHONY : src/ConverterJSON.o
 
@@ -220,6 +244,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... Search-Engine"
+	@echo "... src/Configuration.o"
+	@echo "... src/Configuration.i"
+	@echo "... src/Configuration.s"
 	@echo "... src/ConverterJSON.o"
 	@echo "... src/ConverterJSON.i"
 	@echo "... src/ConverterJSON.s"

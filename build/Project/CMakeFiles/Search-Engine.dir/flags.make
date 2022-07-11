@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include
 
-CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
 

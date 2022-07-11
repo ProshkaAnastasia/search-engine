@@ -1,6 +1,12 @@
 #include <iostream>
 #include "nlohmann/json.hpp"
+#include <filesystem>
+#include "ConverterJSON.h"
+#include <vector>
 
 int main(int, char**) {
-    std::cout << "Hello, world!\n";
+    Configuration conf;
+    std::vector <std::string> fileNames = ConverterJSON::GetTextDocuments();
+    conf = ConverterJSON::getConfig();
+    return 0;
 }

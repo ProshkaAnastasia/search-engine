@@ -1,12 +1,17 @@
 [
 {
   "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++  -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17 -o CMakeFiles/Search-Engine.dir/src/main.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/main.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++  -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Search-Engine.dir/src/main.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/main.cpp",
   "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/main.cpp"
 },
 {
   "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++  -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17 -o CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/ConverterJSON.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++  -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/ConverterJSON.cpp",
   "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/ConverterJSON.cpp"
+},
+{
+  "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++  -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Search-Engine.dir/src/Configuration.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/Configuration.cpp",
+  "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/Configuration.cpp"
 }
 ]
