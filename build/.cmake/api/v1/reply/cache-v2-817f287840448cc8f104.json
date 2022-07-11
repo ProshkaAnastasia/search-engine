@@ -1123,7 +1123,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0.1.0"
+			"value" : "0.1"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
@@ -2159,6 +2159,42 @@
 		},
 		{
 			"name" : "Search-Engine_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/anastasiapronina/Desktop/Search-Engine"
+		},
+		{
+			"name" : "SearchEngine_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/anastasiapronina/Desktop/Search-Engine/build"
+		},
+		{
+			"name" : "SearchEngine_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "SearchEngine_SOURCE_DIR",
 			"properties" : 
 			[
 				{

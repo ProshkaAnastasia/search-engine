@@ -8,5 +8,5 @@ int main(int, char**) {
     Configuration conf;
     std::vector <std::string> fileNames = ConverterJSON::GetTextDocuments();
     conf = ConverterJSON::getConfig();
-    return 0;
+    
 }

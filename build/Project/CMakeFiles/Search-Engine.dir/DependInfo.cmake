@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/Configuration.cpp" "Project/CMakeFiles/Search-Engine.dir/src/Configuration.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/Configuration.cpp.o.d"
   "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/ConverterJSON.cpp" "Project/CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o.d"
+  "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/Exceptions.cpp" "Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.o.d"
   "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/main.cpp" "Project/CMakeFiles/Search-Engine.dir/src/main.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/main.cpp.o.d"
   )
 

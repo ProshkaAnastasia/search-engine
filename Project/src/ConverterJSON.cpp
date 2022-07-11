@@ -3,20 +3,6 @@
 #include <exception>
 #include <cstdlib>
 
-class ConfigFileIsMissing: public std::exception{
-public:
-    const char* what() const noexcept override{
-        return "Config file is missing";
-    }
-};
-
-class ConfigFileIsEmpty: public std::exception{
-public:
-    const char* what() const noexcept override{
-        return "Config file is empty";
-    }
-};
-
 void ConverterJSON::checkConfigFile(){
     std::fstream file("config.json");
     if (!file.is_open()){
@@ -35,6 +21,9 @@ void ConverterJSON::checkConfigFile(){
         if (j.find("config") == j.end()){
             throw ConfigFileIsEmpty();
         }
+        else if(j["config"]["version"] != VERSION){
+            throw IncorrectFileVersion();
+        }
     }
 }
 
@@ -43,12 +32,12 @@ std::vector <std::string> ConverterJSON::GetTextDocuments(){
     checkConfigFile();
     /*try{
         checkConfigFile();
-    }*/
-    /*catch(ConfigFileIsMissing &e){
+    }
+    catch(ConfigFileIsMissing &e){
         std::cerr << e.what() << std::endl;
         return documents;
-    }*/
-    /*catch(ConfigFileIsEmpty &e){
+    }
+    catch(ConfigFileIsEmpty &e){
         std::cerr << e.what() << std::endl;
         return documents;
     }*/

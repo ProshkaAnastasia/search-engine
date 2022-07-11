@@ -4,6 +4,8 @@
 #include <fstream>
 #include <vector>
 #include "Configuration.h"
+#include "config.h"
+#include "Exceptions.h"
 
 class ConverterJSON{
 private:

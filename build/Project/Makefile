@@ -208,6 +208,30 @@ src/ConverterJSON.cpp.s:
 	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.s
 .PHONY : src/ConverterJSON.cpp.s
 
+src/Exceptions.o: src/Exceptions.cpp.o
+.PHONY : src/Exceptions.o
+
+# target to build an object file
+src/Exceptions.cpp.o:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.o
+.PHONY : src/Exceptions.cpp.o
+
+src/Exceptions.i: src/Exceptions.cpp.i
+.PHONY : src/Exceptions.i
+
+# target to preprocess a source file
+src/Exceptions.cpp.i:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.i
+.PHONY : src/Exceptions.cpp.i
+
+src/Exceptions.s: src/Exceptions.cpp.s
+.PHONY : src/Exceptions.s
+
+# target to generate assembly for a file
+src/Exceptions.cpp.s:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.s
+.PHONY : src/Exceptions.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -250,6 +274,9 @@ help:
 	@echo "... src/ConverterJSON.o"
 	@echo "... src/ConverterJSON.i"
 	@echo "... src/ConverterJSON.s"
+	@echo "... src/Exceptions.o"
+	@echo "... src/Exceptions.i"
+	@echo "... src/Exceptions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
