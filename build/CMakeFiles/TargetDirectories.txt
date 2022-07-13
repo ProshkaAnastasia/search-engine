@@ -42,3 +42,9 @@
 /Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/package_source.dir
 /Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/package.dir
 /Users/anastasiapronina/Desktop/Search-Engine/build/Project/nlohmann_json/CMakeFiles/test.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests/CMakeFiles/test.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests/CMakeFiles/edit_cache.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests/CMakeFiles/rebuild_cache.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests/CMakeFiles/Boost_Tests_run.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests/CMakeFiles/package_source.dir
+/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests/CMakeFiles/package.dir

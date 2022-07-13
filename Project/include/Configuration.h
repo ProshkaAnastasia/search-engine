@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 
 class Configuration{
@@ -7,4 +8,7 @@ class Configuration{
 public:
     Configuration();
     Configuration (std::string _name, std::string _version, int _max_responses);
+    std::string getName();
+    std::string getVersion();
+    int getMaxResponses();
 };

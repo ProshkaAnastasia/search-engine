@@ -1,3 +1,4 @@
+#pragma once
 #include <fstream>
 #include "nlohmann/json.hpp"
 #include <filesystem>
@@ -17,4 +18,5 @@ public:
     static std::vector <std::string> GetRequests();
     static void putAnswer(std::vector <std::vector <std::pair <int, float>>> answers);
     static Configuration getConfig();
+    static std::string getName();
 };

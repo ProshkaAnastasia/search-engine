@@ -18,5 +18,25 @@
   "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project",
   "command": "/Library/Developer/CommandLineTools/usr/bin/clang++  -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/configuration -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/Exceptions.cpp",
   "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/Exceptions.cpp"
+},
+{
+  "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++  -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/configuration -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Search-Engine.dir/src/InvertedIndex.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/InvertedIndex.cpp",
+  "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/InvertedIndex.cpp"
+},
+{
+  "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++ -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../configuration -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -isystem /usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Boost_Tests_run.dir/testConverterJSON.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/testConverterJSON.cpp",
+  "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/testConverterJSON.cpp"
+},
+{
+  "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++ -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../configuration -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -isystem /usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Boost_Tests_run.dir/testInvertedIndex.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/testInvertedIndex.cpp",
+  "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/testInvertedIndex.cpp"
+},
+{
+  "directory": "/Users/anastasiapronina/Desktop/Search-Engine/build/Project/BoostTests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/clang++ -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../nlohmann_json -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../configuration -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../src -I/Users/anastasiapronina/Desktop/Search-Engine/Project/BoostTests/../include -I/Users/anastasiapronina/Desktop/Search-Engine/Project/nlohmann_json/include -isystem /usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a -o CMakeFiles/Boost_Tests_run.dir/__/src/InvertedIndex.cpp.o -c /Users/anastasiapronina/Desktop/Search-Engine/Project/src/InvertedIndex.cpp",
+  "file": "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/InvertedIndex.cpp"
 }
 ]

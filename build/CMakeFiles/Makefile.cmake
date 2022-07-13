@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../Project/BoostTests/CMakeLists.txt"
   "../Project/CMakeLists.txt"
   "../Project/configuration/config.h.in"
   "../Project/nlohmann_json/CMakeLists.txt"
@@ -38,6 +39,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/GNU.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/DartConfiguration.tcl.in"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/ExternalProject.cmake"
+  "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/FindBoost.cmake"
+  "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/FindPackageMessage.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/GNUInstallDirs.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake"
@@ -49,6 +53,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/UnixPaths.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake"
   "/Users/anastasiapronina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Templates/CPackConfig.cmake.in"
+  "/usr/local/lib/cmake/Boost-1.79.0/BoostConfig.cmake"
+  "/usr/local/lib/cmake/Boost-1.79.0/BoostConfigVersion.cmake"
+  "/usr/local/lib/cmake/BoostDetectToolset-1.79.0.cmake"
+  "/usr/local/lib/cmake/boost_headers-1.79.0/boost_headers-config-version.cmake"
+  "/usr/local/lib/cmake/boost_headers-1.79.0/boost_headers-config.cmake"
+  "/usr/local/lib/cmake/boost_unit_test_framework-1.79.0/boost_unit_test_framework-config-version.cmake"
+  "/usr/local/lib/cmake/boost_unit_test_framework-1.79.0/boost_unit_test_framework-config.cmake"
+  "/usr/local/lib/cmake/boost_unit_test_framework-1.79.0/libboost_unit_test_framework-variant-shared.cmake"
+  "/usr/local/lib/cmake/boost_unit_test_framework-1.79.0/libboost_unit_test_framework-variant-static.cmake"
   )
 
 # The corresponding makefile is:
@@ -69,6 +82,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Project/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
   "Project/nlohmann_json/nlohmann_jsonConfig.cmake"
   "Project/nlohmann_json/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Project/BoostTests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -102,4 +116,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Continuous.dir/DependInfo.cmake"
   "CMakeFiles/Experimental.dir/DependInfo.cmake"
   "Project/CMakeFiles/Search-Engine.dir/DependInfo.cmake"
+  "Project/BoostTests/CMakeFiles/Boost_Tests_run.dir/DependInfo.cmake"
   )

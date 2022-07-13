@@ -523,6 +523,19 @@ Search-Engine/fast:
 	$(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/build
 .PHONY : Search-Engine/fast
 
+#=============================================================================
+# Target rules for targets named Boost_Tests_run
+
+# Build rule for target.
+Boost_Tests_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Boost_Tests_run
+.PHONY : Boost_Tests_run
+
+# fast build rule for target.
+Boost_Tests_run/fast:
+	$(MAKE) $(MAKESILENT) -f Project/BoostTests/CMakeFiles/Boost_Tests_run.dir/build.make Project/BoostTests/CMakeFiles/Boost_Tests_run.dir/build
+.PHONY : Boost_Tests_run/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -562,6 +575,7 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... Boost_Tests_run"
 	@echo "... Search-Engine"
 .PHONY : help
 

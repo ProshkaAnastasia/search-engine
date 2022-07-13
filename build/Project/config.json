@@ -1,0 +1,12 @@
+{
+    "config": {
+    "name": "SkillboxSearchEngine", 
+    "version": "0.1.0", 
+    "max_responses": 5
+    }, "files": [
+    "/Users/anastasiapronina/Desktop/Search-Engine/Files/files3/file1.txt", 
+    "/Users/anastasiapronina/Desktop/Search-Engine/Files/files3/file2.txt",
+    "/Users/anastasiapronina/Desktop/Search-Engine/Files/files3/file3.txt", 
+    "/Users/anastasiapronina/Desktop/Search-Engine/Files/files3/file4.txt"
+    ] }
+    

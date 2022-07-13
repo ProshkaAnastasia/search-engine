@@ -232,6 +232,30 @@ src/Exceptions.cpp.s:
 	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.s
 .PHONY : src/Exceptions.cpp.s
 
+src/InvertedIndex.o: src/InvertedIndex.cpp.o
+.PHONY : src/InvertedIndex.o
+
+# target to build an object file
+src/InvertedIndex.cpp.o:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/InvertedIndex.cpp.o
+.PHONY : src/InvertedIndex.cpp.o
+
+src/InvertedIndex.i: src/InvertedIndex.cpp.i
+.PHONY : src/InvertedIndex.i
+
+# target to preprocess a source file
+src/InvertedIndex.cpp.i:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/InvertedIndex.cpp.i
+.PHONY : src/InvertedIndex.cpp.i
+
+src/InvertedIndex.s: src/InvertedIndex.cpp.s
+.PHONY : src/InvertedIndex.s
+
+# target to generate assembly for a file
+src/InvertedIndex.cpp.s:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/InvertedIndex.cpp.s
+.PHONY : src/InvertedIndex.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -277,6 +301,9 @@ help:
 	@echo "... src/Exceptions.o"
 	@echo "... src/Exceptions.i"
 	@echo "... src/Exceptions.s"
+	@echo "... src/InvertedIndex.o"
+	@echo "... src/InvertedIndex.i"
+	@echo "... src/InvertedIndex.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

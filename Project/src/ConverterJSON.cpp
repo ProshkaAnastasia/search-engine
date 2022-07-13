@@ -30,17 +30,6 @@ void ConverterJSON::checkConfigFile(){
 std::vector <std::string> ConverterJSON::GetTextDocuments(){
     std::vector <std::string> documents;
     checkConfigFile();
-    /*try{
-        checkConfigFile();
-    }
-    catch(ConfigFileIsMissing &e){
-        std::cerr << e.what() << std::endl;
-        return documents;
-    }
-    catch(ConfigFileIsEmpty &e){
-        std::cerr << e.what() << std::endl;
-        return documents;
-    }*/
     std::fstream configurationFile("config.json");
     nlohmann::json config;
     configurationFile >> config;
@@ -56,4 +45,24 @@ Configuration ConverterJSON::getConfig(){
     nlohmann::json config;
     configurationFile >> config;
     return {config["config"]["name"], config["config"]["version"], config["config"]["max_responses"]};
+}
+
+int ConverterJSON::GetResponsesLimit(){
+    Configuration conf = ConverterJSON::getConfig();
+    return conf.getMaxResponses();
+}
+
+std::string ConverterJSON::getName(){
+    Configuration conf = ConverterJSON::getConfig();
+    return conf.getName();
+}
+
+std::vector <std::string> ConverterJSON::GetRequests(){
+    std::fstream file("requests.json");
+    std::vector <std::string> requests;
+    nlohmann::json requestStruct;
+    for (auto i : requestStruct["requests"]){
+        requests.push_back(i);
+    }
+    return requests;
 }
