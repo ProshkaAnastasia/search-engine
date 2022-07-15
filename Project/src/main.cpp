@@ -6,6 +6,7 @@
 #include "Exceptions.h"
 #include "InvertedIndex.h"
 #include <algorithm>
+#include <fstream>
 
 std::ostream& operator << (std::ostream &out, const Entry &e) {
         return out << "{" << e.doc_id << ", " << e.count << "}";
@@ -27,11 +28,5 @@ std::ostream& operator << (std::ostream &out, const std::vector <std::vector <En
 }
 
 int main(int, char**) {
-    InvertedIndex i;
-    i.UpdateDocumentBase(i.getContent(ConverterJSON::GetTextDocuments()));
-    std::cout << i.GetWordCount("milk");
-    std::cout << i.GetWordCount("water");
-    std::cout << i.GetWordCount("cappuccino");
-    std::vector <Entry> example = {{0, 3}, {3, 6}, {5, 3}, {1, 3}, {2, 1}};
-    return 0;
+    std::ofstream file("../../file.txt");
 }

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/ConverterJSON.cpp" "Project/CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/ConverterJSON.cpp.o.d"
   "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/Exceptions.cpp" "Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/Exceptions.cpp.o.d"
   "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/InvertedIndex.cpp" "Project/CMakeFiles/Search-Engine.dir/src/InvertedIndex.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/InvertedIndex.cpp.o.d"
+  "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/SearchServer.cpp" "Project/CMakeFiles/Search-Engine.dir/src/SearchServer.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/SearchServer.cpp.o.d"
   "/Users/anastasiapronina/Desktop/Search-Engine/Project/src/main.cpp" "Project/CMakeFiles/Search-Engine.dir/src/main.cpp.o" "gcc" "Project/CMakeFiles/Search-Engine.dir/src/main.cpp.o.d"
   )
 

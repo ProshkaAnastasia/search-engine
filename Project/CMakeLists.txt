@@ -7,7 +7,7 @@ include_directories(src include configuration)
 add_executable(${PROJECT_NAME} src/main.cpp include/ConverterJSON.h 
                 src/ConverterJSON.cpp include/Configuration.h 
                 src/Configuration.cpp src/Exceptions.cpp include/Exceptions.h include/InvertedIndex.h 
-                src/InvertedIndex.cpp)
+                src/InvertedIndex.cpp include/SearchServer.h src/SearchServer.cpp)
 
 configure_file(configuration/config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/configuration/config.h @ONLY)
 

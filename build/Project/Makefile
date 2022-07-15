@@ -256,6 +256,30 @@ src/InvertedIndex.cpp.s:
 	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/InvertedIndex.cpp.s
 .PHONY : src/InvertedIndex.cpp.s
 
+src/SearchServer.o: src/SearchServer.cpp.o
+.PHONY : src/SearchServer.o
+
+# target to build an object file
+src/SearchServer.cpp.o:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/SearchServer.cpp.o
+.PHONY : src/SearchServer.cpp.o
+
+src/SearchServer.i: src/SearchServer.cpp.i
+.PHONY : src/SearchServer.i
+
+# target to preprocess a source file
+src/SearchServer.cpp.i:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/SearchServer.cpp.i
+.PHONY : src/SearchServer.cpp.i
+
+src/SearchServer.s: src/SearchServer.cpp.s
+.PHONY : src/SearchServer.s
+
+# target to generate assembly for a file
+src/SearchServer.cpp.s:
+	cd /Users/anastasiapronina/Desktop/Search-Engine/build && $(MAKE) $(MAKESILENT) -f Project/CMakeFiles/Search-Engine.dir/build.make Project/CMakeFiles/Search-Engine.dir/src/SearchServer.cpp.s
+.PHONY : src/SearchServer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -304,6 +328,9 @@ help:
 	@echo "... src/InvertedIndex.o"
 	@echo "... src/InvertedIndex.i"
 	@echo "... src/InvertedIndex.s"
+	@echo "... src/SearchServer.o"
+	@echo "... src/SearchServer.i"
+	@echo "... src/SearchServer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
